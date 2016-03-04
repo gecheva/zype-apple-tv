@@ -90,7 +90,7 @@
 		F511581C1BDE6CFC00DB1774 /* FocusableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusableButton.swift; sourceTree = "<group>"; };
 		F5534D241BCFC64100BEA509 /* FavoritesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
 		F5534D261BCFEB8200BEA509 /* CollectionContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionContainerVC.swift; sourceTree = "<group>"; };
-		F553AD201BC660B400A093EF /* <DOT_APP_NAME> */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = <DOT_APP_NAME>; sourceTree = BUILT_PRODUCTS_DIR; };
+		F553AD201BC660B400A093EF /* Pom Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pom Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55669311BE8DADC006A3138 /* StyledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabel.swift; sourceTree = "<group>"; };
 		F55732131BDA4EBC00D323A0 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F5577D921BCE4FDC00F174CE /* URLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		F553AD211BC660B400A093EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F553AD201BC660B400A093EF /* <DOT_APP_NAME> */,
+				F553AD201BC660B400A093EF /* Pom Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F553AD1F1BC660B400A093EF /* <PROJECT_NAME> */ = {
+		F553AD1F1BC660B400A093EF /* PomTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F553AD2F1BC660B400A093EF /* Build configuration list for PBXNativeTarget "<PROJECT_NAME>" */;
+			buildConfigurationList = F553AD2F1BC660B400A093EF /* Build configuration list for PBXNativeTarget "PomTest" */;
 			buildPhases = (
 				F553AD1C1BC660B400A093EF /* Sources */,
 				F553AD1D1BC660B400A093EF /* Frameworks */,
@@ -250,9 +250,9 @@
 				64F58A011BD8149000777E4A /* PBXTargetDependency */,
 				F5D98CDC1BE3B6A200C986B4 /* PBXTargetDependency */,
 			);
-			name = <PROJECT_NAME>;
+			name = PomTest;
 			productName = UITest;
-			productReference = F553AD201BC660B400A093EF /* <DOT_APP_NAME> */;
+			productReference = F553AD201BC660B400A093EF /* Pom Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F553AD1B1BC660B400A093EF /* Build configuration list for PBXProject "<PROJECT_NAME>" */;
+			buildConfigurationList = F553AD1B1BC660B400A093EF /* Build configuration list for PBXProject "PomTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,7 +290,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				F553AD1F1BC660B400A093EF /* <PROJECT_NAME> */,
+				F553AD1F1BC660B400A093EF /* PomTest */,
 			);
 		};
 /* End PBXProject section */
@@ -484,8 +484,8 @@
 				INFOPLIST_FILE = Zype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = <PRODUCT_BUNDLE_IDENTIFIER>;
-				PRODUCT_NAME = "<PRODUCT_NAME>";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zype.pomtest;
+				PRODUCT_NAME = "Pom Test";
 				SDKROOT = appletvos;
 			};
 			name = Debug;
@@ -500,8 +500,8 @@
 				INFOPLIST_FILE = Zype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = <PRODUCT_BUNDLE_IDENTIFIER>;
-				PRODUCT_NAME = "<PRODUCT_NAME>";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zype.pomtest;
+				PRODUCT_NAME = "Pom Test";
 				SDKROOT = appletvos;
 			};
 			name = Release;
@@ -509,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F553AD1B1BC660B400A093EF /* Build configuration list for PBXProject "<PROJECT_NAME>" */ = {
+		F553AD1B1BC660B400A093EF /* Build configuration list for PBXProject "PomTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F553AD2D1BC660B400A093EF /* Debug */,
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F553AD2F1BC660B400A093EF /* Build configuration list for PBXNativeTarget "<PROJECT_NAME>" */ = {
+		F553AD2F1BC660B400A093EF /* Build configuration list for PBXNativeTarget "PomTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F553AD301BC660B400A093EF /* Debug */,
