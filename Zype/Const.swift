@@ -5,7 +5,7 @@
 //  Created by Eugene Lizhnyk on 10/9/15.
 //  Copyright © 2015 Eugene Lizhnyk. All rights reserved.
 //
-// GIT DESCRIPTION: <GIT_DESCRIPTION>
+// GIT DESCRIPTION: 1.0-3-g51da56c
 
 import UIKit
 import ZypeSDK
@@ -14,7 +14,7 @@ class Const: NSObject {
 
   static let sdkSettings = SettingsModel(clientID: "",
     secret: "",
-    appKey: "<APP_KEY>",
+    appKey: "c8I6wEdW476UuAy4FNZuny-Tl5zMqK8CxGMj8Kr6KnGQ3YJUrPuqtKqV-RZtaR5N",
     apiDomain:"https://api.zype.com",
     tokenDomain: "https://login.zype.com",
     userAgent: "zype tvos")

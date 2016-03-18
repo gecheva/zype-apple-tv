@@ -7,6 +7,6 @@
 //
 
 //dev
-let kAppKey = "<APP_KEY>"
+let kAppKey = "c8I6wEdW476UuAy4FNZuny-Tl5zMqK8CxGMj8Kr6KnGQ3YJUrPuqtKqV-RZtaR5N"
 let kOAuthClientSecret = ""
 let kOAuthClientId = ""
